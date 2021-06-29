@@ -10,6 +10,6 @@ public class CalculatorServiceImpl implements CalculatorService {
     @Println
     @Override
     public int multiplication(int x, int y) {
-        return x+y;
+        return x*y;
     }
 }
